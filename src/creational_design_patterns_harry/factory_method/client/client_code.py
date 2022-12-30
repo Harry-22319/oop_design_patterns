@@ -6,7 +6,7 @@ from src.creational_design_patterns_harry.factory_method.creator.SeaLogistic imp
 
 def client_code(logistic: Logistic) -> None:
     print(f"Client: I'm not aware of the type of logistic, but it still works.\n"
-          f"{logistic.factory_method()}", end="")
+          f"{logistic.factory_method().print_type()}", end="")
 
 
 if __name__ == "__main__":
